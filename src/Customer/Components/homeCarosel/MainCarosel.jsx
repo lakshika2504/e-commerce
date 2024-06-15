@@ -11,7 +11,7 @@ const Mystyle={
 const MainCarosel = () => {
     const items = CroselData.map((item) => (
         <img
-            className="cursor-pointer"
+            className="cursor-pointer -z-10"
             role="presentation"
             src={item.image}
             alt=""
